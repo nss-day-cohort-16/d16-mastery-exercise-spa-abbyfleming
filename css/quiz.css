@@ -1,0 +1,16 @@
+body {
+	background: #E2E1E4;
+}
+
+.border {
+	border: 2px solid black;
+}
+
+.car {
+	width: 200px;
+	height: 200px;
+	background: white;
+	margin: 20px;
+	float: left;
+	padding: 20px;
+}
