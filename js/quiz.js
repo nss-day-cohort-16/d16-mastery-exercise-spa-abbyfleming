@@ -14,8 +14,8 @@ function populatePage (inventoryData) {
 		getinfo = inventoryData[i];
 		div.classList.add("car", "border");
 		
-		//div.id = "car" + i;
-		header.innerHTML  = getinfo.make + ", " + getinfo.model + ", " + getinfo.year; 
+		div.id = `car${i}`;
+		header.innerHTML  = getinfo.year + " " + getinfo.make + " " + getinfo.model  ; 
 		section.innerHTML = "$" + getinfo.price;
 		footer.innerHTML  = getinfo.description;
 
@@ -24,7 +24,14 @@ function populatePage (inventoryData) {
 		div.appendChild(section);
 		div.appendChild(footer);
 		output.appendChild(div);
+	
+		document.getElementById(`car${i}`).addEventListener("click", function() {
+			this.classList.add("borderColor");
+		});
+
 	};
+
+	CarLot.activateEvents();
 }
 
 
@@ -33,5 +40,3 @@ function populatePage (inventoryData) {
 // }
 
 CarLot.loadInventory(populatePage);
-CarLot.activateEvents();
-CarLot.addBorder();

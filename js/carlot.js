@@ -15,7 +15,6 @@ var CarLot = (function () {
 
       	callback(inventoryData);
 
-      	console.log("inventoryData", inventoryData); 
       });
 
     },
