@@ -1,0 +1,50 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+
+        {
+      "make": "Jeep",
+      "model": "Patriot",
+      "year": "2010",
+      "price": "10000",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+
+      	{
+      "make": "Pontiac",
+      "model": "Altima",
+      "year": "2012",
+      "price": "12000",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+        {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+
+        {
+      "make": "Jeep",
+      "model": "Patriot",
+      "year": "2010",
+      "price": "10000",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+
+        {
+      "make": "Pontiac",
+      "model": "Altima",
+      "year": "2012",
+      "price": "12000",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    }
+  ]
+}

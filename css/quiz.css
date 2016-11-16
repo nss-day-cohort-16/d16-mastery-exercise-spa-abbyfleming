@@ -1,29 +1,16 @@
-body {
-	background: #E2E1E4;
+* {
+	box-sizing: border-box;
 }
 
-.car {
-	width: 250px;
-	min-height: 300px;
-	background: white;
-	margin: 20px;
-	float: left;
-	padding: 20px;
-}
-
-.car header {
-	font-weight: bold;
+.row {
+	margin: 50px;
 }
 
 .border {
 	border: 2px solid black;
+
 }
 
 .borderColor {
-	border: 4px solid #7C8C9D;
-	background: #EFE9D9;
-}
-
-nav input {
-	margin-top: 10px;
+	border: 3px solid green;
 }
